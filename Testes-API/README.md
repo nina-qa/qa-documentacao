@@ -2,7 +2,7 @@
  🔌 Testes-API/README.md
 
 ```markdown
-# 🔌 Testes de API
+🔌 Testes de API
 
 Testes de API são essenciais para validar a comunicação entre serviços. Usamos o **Postman** para testes exploratórios e o **Newman** para automação via CLI.
 
