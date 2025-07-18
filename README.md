@@ -18,7 +18,7 @@ Auditoria: garante conformidade com padrões e regulamentações.
 
 01-Testes-Manuais
 
-Contém o README.md com definições, objetivos, aplicações e exemplos dos principais tipos de testes manuais:
+Contém o (README.md) com definições, objetivos, aplicações e exemplos dos principais tipos de testes manuais:
 
 Teste Funcional
 
