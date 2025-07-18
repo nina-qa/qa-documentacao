@@ -1,1 +1,147 @@
+ Documentação de Tipos de Testes Manuais
 
+Este repositório tem como objetivo documentar de forma clara e objetiva os principais tipos de testes manuais utilizados na Garantia da Qualidade de Software (QA). Cada seção apresenta definição, objetivo, quando aplicar e exemplos.
+
+1. 🔢 Teste Funcional
+
+✅ Definição
+
+Valida se o sistema realiza as funcionalidades esperadas conforme os requisitos definidos.
+
+🚀 Objetivo
+
+Assegurar que cada funcionalidade do sistema opere corretamente.
+
+⏰ Quando aplicar
+
+Sempre que uma nova funcionalidade é desenvolvida.
+
+Durante ciclos de testes regulares.
+
+🔹 Exemplo
+
+Verificar se o botão "Salvar" grava os dados no banco corretamente.
+
+2. 📆 Teste de Regressão
+
+✅ Definição
+
+Testes realizados para garantir que funcionalidades antigas continuam funcionando após uma alteração no sistema.
+
+🚀 Objetivo
+
+Evitar que novas funcionalidades quebrem funcionalidades já existentes.
+
+⏰ Quando aplicar
+
+Após qualquer modificação de código.
+
+Antes de uma nova release.
+
+🔹 Exemplo
+
+Após alteração na página de perfil, testar se o login ainda funciona normalmente.
+
+3. 💡 Teste Exploratorório
+
+✅ Definição
+
+Teste realizado sem roteiro pré-definido, com foco em descobrir falhas através da exploração livre do sistema.
+
+🚀 Objetivo
+
+Identificar comportamentos inesperados e pontos cegos não cobertos por outros testes.
+
+⏰ Quando aplicar
+
+Sistemas em estágio inicial.
+
+Validação complementar a outros tipos de teste.
+
+🔹 Exemplo
+
+Navegar por todas as telas tentando realizar ações inválidas para observar o comportamento.
+
+4. 🎨 Teste de Interface (UI)
+
+✅ Definição
+
+Valida a experiência do usuário, a usabilidade e a consistência dos elementos visuais e interativos da interface.
+
+🚀 Objetivo
+
+Garantir que os elementos visuais estejam corretamente posicionados e funcionando.
+
+⏰ Quando aplicar
+
+Após alterações no layout ou no frontend.
+
+Testes de usabilidade.
+
+🔹 Exemplo
+
+Testar se o botão "Fechar" aparece corretamente no canto superior direito e está funcionando.
+
+5. 📢 Teste de Aceitação (UAT)
+
+✅ Definição
+
+Teste realizado pelo cliente ou usuário final para validar se o sistema atende aos requisitos de negócio.
+
+🚀 Objetivo
+
+Obter a aprovação do cliente para liberação do sistema.
+
+⏰ Quando aplicar
+
+Final do ciclo de desenvolvimento.
+
+Antes de ir para produção.
+
+🔹 Exemplo
+
+Cliente testa o fluxo de compra e verifica se os valores estão corretos com impostos aplicados.
+
+6. 🔥 Smoke Test
+
+✅ Definição
+
+Teste rápido para verificar se o sistema é estável o suficiente para testes mais aprofundados.
+
+🚀 Objetivo
+
+Validar as funcionalidades principais de forma superficial.
+
+⏰ Quando aplicar
+
+Após uma nova build ou deploy.
+
+🔹 Exemplo
+
+Testar se o sistema carrega, login funciona, e navegação entre páginas está operante.
+
+7. ✅ Sanity Test
+
+✅ Definição
+
+Teste focado em verificar se uma funcionalidade específica que sofreu alteração continua funcionando.
+
+🚀 Objetivo
+
+Validar rápida e objetivamente se determinada função está estável.
+
+⏰ Quando aplicar
+
+Após correção de bug ou melhoria pontual.
+
+🔹 Exemplo
+
+Após correção no cálculo de frete, testar apenas o campo "CEP" e o valor de entrega.
+
+📚 Referências
+
+ISTQB Glossary
+
+IEEE 829 Standard for Test Documentation
+
+Ministry of Testing Community
