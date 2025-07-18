@@ -21,8 +21,11 @@ Automatizar testes garante velocidade, repetibilidade e confiabilidade. Utilizam
 
 /cypress
 ├── e2e
+
 ├── fixtures
+
 ├── support
+
 └── reports
 
 
