@@ -4,9 +4,9 @@
 
 A documentação na área de Qualidade de Software (QA) é essencial para garantir a rastreabilidade, a compreensão do escopo, a reprodutibilidade de testes e a comunicação eficiente entre times. Uma boa documentação ajuda a padronizar processos, mitigar riscos e acelerar a detecção de falhas.
 
-##📄 Importância da Documentação em QA
+📄 Importância da Documentação em QA
 
-##Rastreabilidade: ligação entre requisitos, casos de teste e defeitos.
+Rastreabilidade: ligação entre requisitos, casos de teste e defeitos.
 
 Histórico: registro das versões testadas e comportamentos esperados.
 
@@ -47,10 +47,15 @@ Tipos de testes abordados: Regressão, Funcional, Smoke, Integração de Fronten
 Estrutura do projeto Cypress:
 
 /cypress
+
 ├── e2e         # Casos de teste organizados por feature
+
 ├── fixtures    # Dados simulados (mock)
+
 ├── support     # Comandos customizados e configurações
+
 └── reports     # Resultados e evidências dos testes
+
 
 Exemplo real de script de teste Cypress (login)
 
@@ -71,8 +76,11 @@ Tipos de testes: Contrato, Status Code, Performance, Autenticação, Erros
 Estrutura de projeto:
 
 /postman
+
 ├── collections     # Coleções de requisições
+
 ├── environments    # Variáveis por ambiente
+
 └── tests           # Scripts de validação
 
 Exemplos de scripts com pm.test para Postman
