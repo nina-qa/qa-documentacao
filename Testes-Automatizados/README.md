@@ -20,6 +20,7 @@ Automatizar testes garante velocidade, repetibilidade e confiabilidade. Utilizam
 ## 📂 Estrutura dos Arquivos
 
 /cypress
+
 ├── e2e
 
 ├── fixtures
