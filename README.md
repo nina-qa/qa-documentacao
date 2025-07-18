@@ -4,9 +4,9 @@
 
 A documentação na área de Qualidade de Software (QA) é essencial para garantir a rastreabilidade, a compreensão do escopo, a reprodutibilidade de testes e a comunicação eficiente entre times. Uma boa documentação ajuda a padronizar processos, mitigar riscos e acelerar a detecção de falhas.
 
-📄 ##Importância da Documentação em QA
+##📄 Importância da Documentação em QA
 
-Rastreabilidade: ligação entre requisitos, casos de teste e defeitos.
+##Rastreabilidade: ligação entre requisitos, casos de teste e defeitos.
 
 Histórico: registro das versões testadas e comportamentos esperados.
 
